@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/my_portfolio_app_grey"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -68,7 +69,9 @@
             <Button
                 android:id="@+id/btn_capstone_app"
                 android:text="@string/btn_capstone_app"
-                style="@style/ButtonTabStyle"/>
+                style="@style/ButtonTabStyle"
+                android:background="@drawable/button_capstone_app"
+                android:textColor="@color/my_portfolio_app_white"/>
 
         </LinearLayout>
     </LinearLayout>
