@@ -8,7 +8,7 @@
     <!-- Style for title textview in phone layout -->
     <style name="TitlePhoneStyle">
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_height">48dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
     </style>
@@ -23,8 +23,8 @@
 
     <!-- Style for buttons in phone layout -->
     <style name="ButtonPhoneStyle">
-        <item name="android:layout_width">220dp</item>
-        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">48dp</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:background">@drawable/button_all_apps</item>
