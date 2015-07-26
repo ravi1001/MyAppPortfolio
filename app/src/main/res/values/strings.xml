@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">MyAppPortfolio</string>
 
+    <string name="activity_name">My App Portfolio</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Label for text view displaying title -->
+    <string name="tv_title">My Nanodegree Apps!</string>
+
+    <!-- Labels for buttons that will launch the apps -->
+    <string name="btn_spotify_streamer_app">SPOTIFY STREAMER</string>
+    <string name="btn_scores_app">SCORES APP</string>
+    <string name="btn_library_app">LIBRARY APP</string>
+    <string name="btn_build_it_bigger_app">BUILD IT BIGGER</string>
+    <string name="btn_xyz_reader_app">XYZ READER</string>
+    <string name="btn_capstone_app">CAPSTONE: MY OWN APP</string>
+
 </resources>
