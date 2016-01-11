@@ -1,8 +1,9 @@
 <resources>
+    <!-- App title -->
     <string name="app_name">AppFolio</string>
 
     <!-- Label for text view displaying title -->
-    <string name="tv_title">My Android Apps!</string>
+    <string name="label_title">My Android Apps!</string>
 
     <!-- Labels for buttons that will launch the apps -->
     <string name="label_btn_modern_art">MODERN ART</string>
@@ -14,12 +15,16 @@
     <string name="label_btn_go_ubiquitous">GO UBIQUITOUS</string>
     <string name="label_btn_news_bytes">NEWS BYTES</string>
 
-    <!-- Toast messages for the apps -->
-    <string name="toast_spotify_streamer_app">This button will launch my spotify streamer app!</string>
-    <string name="toast_scores_app">This button will launch my scores app!</string>
-    <string name="toast_library_app">This button will launch my library app!</string>
-    <string name="toast_build_it_bigger_app">This button will launch my build it bigger app!</string>
-    <string name="toast_xyz_reader_app">This button will launch my xyz reader app!</string>
-    <string name="toast_capstone_app">This button will launch my capstone app!</string>
+    <!-- Messages -->
+    <string name="msg_err_app_not_found">This app is not installed on the device. Please install the app and try again.</string>
 
+    <!-- Package names for the apps that can be launched -->
+    <string name="package_modern_art">com.mocca.modernartui</string>
+    <string name="package_popular_movies">com.ravi.apps.android.popularmovies</string>
+    <string name="package_alexandria">it.jaschke.alexandria</string>
+    <string name="package_football_scores">barqsoft.footballscores</string>
+    <string name="package_build_it_bigger">com.udacity.gradle.builditbigger</string>
+    <string name="package_xyz_reader">com.example.xyzreader</string>
+    <string name="package_go_ubiquitous">com.example.android.sunshine.app</string>
+    <string name="package_news_bytes">com.ravi.apps.android.newsbytes</string>
 </resources>

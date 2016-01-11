@@ -11,7 +11,7 @@
         android:padding="16dp">
         <TextView
             android:id="@+id/tv_title"
-            android:text="@string/tv_title"
+            android:text="@string/label_title"
             style="@style/TitlePhoneStyle"/>
         <Button
             android:id="@+id/btn_modern_art"
