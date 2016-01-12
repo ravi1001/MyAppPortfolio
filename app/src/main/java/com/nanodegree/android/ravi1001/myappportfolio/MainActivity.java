@@ -72,6 +72,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Determine the button clicked and launch the corresponding app.
         switch (viewId) {
             case R.id.btn_modern_art: {
+                // Launch the modern art ui app.
+                launchApp(getString(R.string.package_modern_art));
                 break;
             }
             case R.id.btn_popular_movies: {
