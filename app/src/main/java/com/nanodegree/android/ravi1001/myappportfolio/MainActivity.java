@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btn_popular_movies: {
+                // Launch the popular movies app.
+                launchApp(getString(R.string.package_popular_movies));
                 break;
             }
             case R.id.btn_alexandria: {
