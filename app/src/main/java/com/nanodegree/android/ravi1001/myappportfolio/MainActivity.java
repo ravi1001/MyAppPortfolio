@@ -82,6 +82,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btn_alexandria: {
+                // Launch the alexandria app.
+                launchApp(getString(R.string.package_alexandria));
                 break;
             }
             case R.id.btn_football_scores: {
