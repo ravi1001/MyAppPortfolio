@@ -92,6 +92,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btn_build_it_bigger: {
+                // Launch the build it bigger app.
+                launchApp(getString(R.string.package_build_it_bigger));
                 break;
             }
             case R.id.btn_xyz_reader: {
