@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btn_xyz_reader: {
+                // Launch the xyz reader app.
+                launchApp(getString(R.string.package_xyz_reader));
                 break;
             }
             case R.id.btn_go_ubiquitous: {
